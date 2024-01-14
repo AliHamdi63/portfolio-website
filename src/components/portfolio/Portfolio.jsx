@@ -20,6 +20,7 @@ const Portfolio = () => {
                                     <img src={item.image} alt='portfolio' />
                                 </div>
                                 <h3>{item.title}</h3>
+                                <h5>{item.description}</h5>
                                 <div className='portfolio__container-cta'>
                                     <a href={item.github} className='btn' target='_blank'>Github</a>
                                     <a href={item.demo} className='btn btn-primary' target='_blank'>Live Demo</a>
