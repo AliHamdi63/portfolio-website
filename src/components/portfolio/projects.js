@@ -5,11 +5,20 @@ import bookStoreApi from '../../assets/book-store-api.png';
 import foody from '../../assets/foody.png';
 import ecommerce from '../../assets/ecommerce.png';
 import singlePageResponsive from '../../assets/single-page-responsive.png';
+import vuejsMeals from '../../assets/vuejs-meals.png';
 // import  from '../../assets/';
 
 const projects = [
     {
         id: 1,
+        image: vuejsMeals,
+        title: "VueJs Meals",
+        description: "This is a simple front-end project using VueJS Framework.",
+        github: "https://github.com/AliHamdi63/vuejs-meals",
+        demo: "https://vuejs-meals.vercel.app/"
+    },
+    {
+        id: 2,
         image: chatApp,
         title: "Chat app",
         description: "This is a simple Chat Application using Reactjs, Stream & Express.",
@@ -17,7 +26,7 @@ const projects = [
         demo: "https://chat-app-plum-nine-37.vercel.app/"
     },
     {
-        id: 2,
+        id: 3,
         image: authSecret,
         title: "Secret Authentication",
         description: "This is an authentication system built with Node.js, ejs, Express, MongoDB, passport.js, cookies & bcryptjs.",
@@ -25,7 +34,7 @@ const projects = [
         demo: "https://secrets-auth-2y59.onrender.com/"
     },
     {
-        id: 3,
+        id: 4,
         image: ecommerceShop,
         title: "Ecommerce Shop",
         description: "This is a simple ECommerce website where you can add or remove products from the cart. Using Reactjs & redux toolkit.",
@@ -33,7 +42,7 @@ const projects = [
         demo: "https://ecommerce-shop-flax.vercel.app/home"
     },
     {
-        id: 4,
+        id: 5,
         image: bookStoreApi,
         title: "Book Store Api",
         description: "An API for a Book store built with Node.js, Express, MongoDB, bcryptjs & jwt.",
@@ -41,7 +50,7 @@ const projects = [
         demo: "https://book-store-api-sm0w.onrender.com/api/books"
     },
     {
-        id: 5,
+        id: 6,
         image: foody,
         title: "Foody website",
         description: "This is a fullstack website built with Reactjs, MaterialUI, Node.js, Express & MongoDB.",
@@ -49,7 +58,7 @@ const projects = [
         demo: "https://final-project-alihamdi63.vercel.app/"
     },
     {
-        id: 6,
+        id: 7,
         image: ecommerce,
         title: "Ecommerce Furnitures website",
         description: "This is a frontend website where you can add or remove products from the cart. Using Reactjs, Bootstrap & react-redux.",
@@ -57,7 +66,7 @@ const projects = [
         demo: "https://ecommerce-reactjs-beta.vercel.app/home"
     },
     {
-        id: 7,
+        id: 8,
         image: singlePageResponsive,
         title: "Single Page Responsive",
         description: "A responsive page built with Bootstrap.",
