@@ -1,4 +1,4 @@
-import chatApp from '../../assets/chat-app.png';
+import StoryBooks from '../../assets/StoryBooks.png';
 import authSecret from '../../assets/auth-secret.png';
 import ecommerceShop from '../../assets/ecommerce-shop.png';
 import bookStoreApi from '../../assets/book-store-api.png';
@@ -6,24 +6,25 @@ import foody from '../../assets/foody.png';
 import ecommerce from '../../assets/ecommerce.png';
 import singlePageResponsive from '../../assets/single-page-responsive.png';
 import vuejsMeals from '../../assets/vuejs-meals.png';
+import eventApp from '../../assets/eventApp.png';
 // import  from '../../assets/';
 
 const projects = [
     {
         id: 1,
-        image: vuejsMeals,
-        title: "VueJs Meals",
-        description: "This is a simple front-end project using VueJS Framework.",
-        github: "https://github.com/AliHamdi63/vuejs-meals",
-        demo: "https://vuejs-meals.vercel.app/"
+        image: bookStoreApi,
+        title: "Book Store Api",
+        description: "An API for a Book store built with Node.js, Express, MongoDB, bcryptjs & jwt",
+        github: "https://github.com/AliHamdi63/Book-Store-API",
+        demo: "https://book-store-api-sm0w.onrender.com/api/books"
     },
     {
         id: 2,
-        image: chatApp,
-        title: "Chat app",
-        description: "This is a simple Chat Application using Reactjs, Stream & Express.",
-        github: "https://github.com/AliHamdi63/Chat-app",
-        demo: "https://chat-app-plum-nine-37.vercel.app/"
+        image: StoryBooks,
+        title: "Story Books",
+        description: "Login with Google Auth and write stories public or private using Node.js, Express.js, MongoDB, Passports.js",
+        github: "https://github.com/AliHamdi63/StoryBooks",
+        demo: null
     },
     {
         id: 3,
@@ -43,14 +44,6 @@ const projects = [
     },
     {
         id: 5,
-        image: bookStoreApi,
-        title: "Book Store Api",
-        description: "An API for a Book store built with Node.js, Express, MongoDB, bcryptjs & jwt.",
-        github: "https://github.com/AliHamdi63/Book-Store-API",
-        demo: "https://book-store-api-sm0w.onrender.com/api/books"
-    },
-    {
-        id: 6,
         image: foody,
         title: "Foody website",
         description: "This is a fullstack website built with Reactjs, MaterialUI, Node.js, Express & MongoDB.",
@@ -58,7 +51,23 @@ const projects = [
         demo: "https://final-project-alihamdi63.vercel.app/"
     },
     {
+        id: 6,
+        image: vuejsMeals,
+        title: "VueJs Meals",
+        description: "Simple Vue.js project",
+        github: "https://github.com/AliHamdi63/vuejs-meals",
+        demo: "https://vuejs-meals.vercel.app/"
+    },
+    {
         id: 7,
+        image: eventApp,
+        title: "Events-app",
+        description: "Simple Next.js project.",
+        github: "https://github.com/AliHamdi63/Events-App",
+        demo: "https://events-app-psi-seven.vercel.app/"
+    },
+    {
+        id: 8,
         image: ecommerce,
         title: "Ecommerce Furnitures website",
         description: "This is a frontend website where you can add or remove products from the cart. Using Reactjs, Bootstrap & react-redux.",
@@ -66,7 +75,7 @@ const projects = [
         demo: "https://ecommerce-reactjs-beta.vercel.app/home"
     },
     {
-        id: 8,
+        id: 9,
         image: singlePageResponsive,
         title: "Single Page Responsive",
         description: "A responsive page built with Bootstrap.",

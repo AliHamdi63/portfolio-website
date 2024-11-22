@@ -4,7 +4,7 @@ import "./header.css"
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 // import ME from "../../assets/me.png"
-import ME from "../../assets/me2.png"
+import ME from "../../assets/My_Photo.png"
 
 const Header = () => {
     return (
